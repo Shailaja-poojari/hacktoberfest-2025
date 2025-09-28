@@ -9,3 +9,8 @@
 - File: `task-2.js`
 - Write a function to check if a number is prime.
 - Example: `7` → `true`, `10` → `false`
+
+##  Task 3: Removes duplicate elements from an array
+- File: `task-2.js`
+- Create a function that removes duplicate elements from an array
+- Example: [1,2,2,3,3,4] → [1,2,3,4]
