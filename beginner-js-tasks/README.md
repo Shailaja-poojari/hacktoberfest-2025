@@ -14,3 +14,4 @@
 - File: `task-2.js`
 - Create a function that removes duplicate elements from an array
 - Example: [1,2,2,3,3,4] → [1,2,3,4]
+
