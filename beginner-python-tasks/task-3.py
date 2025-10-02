@@ -1,4 +1,4 @@
-#  Task 3: Count the amount of vowels in a string
+#  Task 3: Count the number of vowels in a string
 
 def count_vowels(s):
     return sum(1 for c in s.lower() if c in "aeiou")
