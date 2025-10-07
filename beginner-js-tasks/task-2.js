@@ -9,4 +9,4 @@ function isPrime(num) {
 }
 
 console.log(isPrime(7));  // Output: true
-console.log(isPrime(10)); // Output: false
+console.log(isPrime(12)); // Output: false
