@@ -1,28 +1,36 @@
-// task-4
-// Function to check if a string is a palindrome
+// Task 4: Check if a given string is a palindrome
+
+/**
+ * Checks if a string is a palindrome (reads the same forwards and backwards).
+ * This function is beginner-friendly and uses built-in string/array methods.
+ */
 function isPalindrome(str) {
-  // Step 1: Remove all spaces and convert to lowercase
-  // This ensures "A man a plan a canal Panama" works correctly
-  const cleaned = str.replace(/\s+/g, "").toLowerCase();
+    // 1. Convert the string into an array of characters
+    // Example: "madam" -> ['m', 'a', 'd', 'a', 'm']
+    const charArray = str.split('');
 
-  // Step 2: Reverse the cleaned string
-  const reversed = cleaned.split("").reverse().join("");
+    // 2. Reverse the array
+    // Example: ['m', 'a', 'd', 'a', 'm'] -> ['m', 'a', 'd', 'a', 'm']
+    const reversedArray = charArray.reverse();
 
-  // Step 3: Compare original cleaned string with reversed string
-  if (cleaned === reversed) {
-    return true;  // It's a palindrome
-  } else {
-    return false; // Not a palindrome
-  }
+    // 3. Join the array back into a string
+    // Example: ['m', 'a', 'd', 'a', 'm'] -> "madam"
+    const reversedString = reversedArray.join('');
+
+    // 4. Check if the original string equals the reversed string
+    return str === reversedString;
 }
 
-// Example usage:
+// --- Test Cases ---
 
-// Single word
-console.log(isPalindrome("racecar"));       // true
+// Example 1: "madam" ➞ true
+const testString1 = "madam";
+console.log(`Is "${testString1}" a palindrome? ${isPalindrome(testString1)}`); // Output: true
 
-// Not a palindrome
-console.log(isPalindrome("hello"));         // false
+// Example 2: "hello" ➞ false
+const testString2 = "hello";
+console.log(`Is "${testString2}" a palindrome? ${isPalindrome(testString2)}`); // Output: false
 
-// Sentence with spaces and mixed case
-console.log(isPalindrome("A man a plan a canal Panama")); // true
+// Example 3: "kayak" ➞ true
+const testString3 = "kayak";
+console.log(`Is "${testString3}" a palindrome? ${isPalindrome(testString3)}`); // Output: true
