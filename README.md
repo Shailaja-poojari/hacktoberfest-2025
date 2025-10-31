@@ -2,18 +2,21 @@
 
 This repository is created for beginners to make their **first Pull Request (PR)** during Hacktoberfest.
 
-##  What is this project?
+## What is this project?
+
 This repository is created to help **first-time contributors** get started with open source. You can contribute simple things like:
+
 - Fixing typos
 - Improving documentation
 - Adding your profile to a contributors list
 - Solving beginner-level issues
 
-##  Tech Stack
+## Tech Stack
+
 - HTML/CSS/JS (Frontend)
 - Markdown (for docs and profiles)
 
-##  How to Contribute?
+## How to Contribute?
 
 1. Fork the repo
 2. Clone it to your local system
@@ -22,23 +25,25 @@ This repository is created to help **first-time contributors** get started with 
 5. Push: `git push origin patch-1`
 6. Create a Pull Request!
 
-##  Labels Used
+## Labels Used
+
 - `good first issue`
 - `documentation`
 - `hacktoberfest`
 - `enhancement`
 
-##  Contributions Welcome!
+## Beginner-Friendly Projects
+
+- [Hacktoberfest 2025 Repository](https://github.com/Shailaja-poojari/hacktoberfest-2025) - Beginner-friendly open-source contributions for first-timers.
+
+## Contributions Welcome!
 
 Make sure you follow [Hacktoberfest rules](https://hacktoberfest.com/participation) and submit **quality PRs**.
 
-##  Maintainer
- [Shailaja Poojari](https://github.com/Shailaja-poojari)
+## Maintainer
+
+[Shailaja Poojari](https://github.com/Shailaja-poojari)
 
 ---
 
 Happy Contributing !
-
-
-
-
