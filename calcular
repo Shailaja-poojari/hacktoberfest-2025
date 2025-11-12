@@ -1,0 +1,26 @@
+# Task4_CalculadoraSimples.py
+# Exemplo de programa em Python para iniciantes.
+# Esta tarefa faz uma soma, subtração, multiplicação e divisão simples.
+# Cumpre as regras do Hacktoberfest 2025 (arquivo único e comentado).
+
+def calculadora(a, b):
+    """Função que realiza operações básicas com dois números."""
+    soma = a + b
+    subtracao = a - b
+    multiplicacao = a * b
+    divisao = a / b if b != 0 else "Indefinido (divisão por zero)"
+    return soma, subtracao, multiplicacao, divisao
+
+# Entrada do usuário
+print("=== Calculadora Simples ===")
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+
+# Processamento e saída
+soma, sub, mult, div = calculadora(a, b)
+
+print(f"\nResultados:")
+print(f"Soma: {soma}")
+print(f"Subtração: {sub}")
+print(f"Multiplicação: {mult}")
+print(f"Divisão: {div}")
