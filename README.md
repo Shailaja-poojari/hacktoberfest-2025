@@ -1,4 +1,4 @@
-﻿# Hacktoberfest 2025 🎉🚀
+﻿# Hacktoberfest 2025 🎉
 
 This repository is created for beginners to make their **first Pull Request (PR)** during Hacktoberfest.
 
